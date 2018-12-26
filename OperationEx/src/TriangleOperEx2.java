@@ -15,6 +15,7 @@ public class TriangleOperEx2 {
 		int x = 0;
 		
 		
+		
 		System.out.println("숫자를 입력해주세요.");
 		Scanner scan = new Scanner(System.in);
 		x = scan.nextInt();
