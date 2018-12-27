@@ -46,10 +46,7 @@ public class ForFlowTest3 {
 			if (value % 2 == 0) {
 				str = "짝수";
 			}
-//			else if (value % 2 != 0){
-//				str = "홀수";
-//			}
-			else{
+			else if (value % 2 != 0){ 
 				str = "홀수";
 			}
 			System.out.println();
