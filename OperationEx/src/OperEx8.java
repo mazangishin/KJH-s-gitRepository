@@ -16,6 +16,7 @@ public class OperEx8 {
 		
 		System.out.println(shortpi);
 		
+		
 		shortpi = (int)(pi * 10000) / 10000.0;
 		
 		System.out.println(shortpi);
