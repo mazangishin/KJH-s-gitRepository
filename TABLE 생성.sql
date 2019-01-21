@@ -1,0 +1,168 @@
+--테이블명 : dept 부서 테이블
+
+--컬럼명 : 부서명 층수 인원
+
+CREATE TABLE DEPT(
+    DEPTNAME VARCHAR(30),
+    FLOOR NUMBER,
+    NUM_OG_PEOPLE NUMBER(30)
+);
+
+ALTER TABLE DEPT
+RENAME COLUMN NUM_OG_PEOPLE TO NUM_OF_PEOPLE;
+
+ALTER TABLE DEPT
+MODIFY (NUM_OF_PEOPLE NUMBER(3));
+
+DESC DEPT;
+
+--테이블에 새로운 행을 추가하는 INSERT문
+--INSERT INTO 테이블명
+--(컬럼명, 컬럼명2, ...)
+--VALUES
+--(컬럼에 넣을 값, 컬럼에 넣을 값2, ...)
+
+INSERT INTO DEPT
+(DEPTNAME, FLOOR, NUM_OF_PEOPLE)
+VALUES
+('운영', 12, 16);
+
+INSERT INTO DEPT
+(DEPTNAME, FLOOR, NUM_OF_PEOPLE)
+VALUES
+('편입지원', 13, 5);
+
+SELECT
+    *
+FROM DEPT;
+
+DESC BOOK;
+
+INSERT INTO BOOK
+(TITLE, PRICE, WRITER)
+VALUES
+('다이나믹 오라클 11G', 2500.0, '성윤정');
+
+
+SELECT * FROM BOOK;
+
+DROP TABLE BAN;
+DROP TABLE DEPT;
+DROP TABLE EMP;
+DROP TABLE OFFICE_DEPT;
+DROP TABLE BOOK;
+
+
+--테이블명 SAM
+--SAM_NAME
+
+
+CREATE TABLE SAM(
+ SAM_NAME    VARCHAR(30),
+ SEX         VARCHAR(10),
+ MEET_YEAR   NUMBER(3)
+);
+
+DESC SAM;
+
+INSERT INTO SAM
+(sam_name, SEX, MEET_YEAR)
+VALUES
+('빈미정','여',07);
+
+INSERT INTO SAM
+(sam_name, SEX, MEET_YEAR)
+VALUES
+('박성욱','남',18);
+
+SELECT * 
+FROM SAM;
+
+--테이블 식별자 명명규칙
+--1. 반드시 문자로 시작해야함
+--2. 1~30자까지 가능함
+--3. A~Z까지의 대소문자와 0~9까지의 숫자, 특수 기호는(_,$,#)만 포함 가능
+--4. 오라클에서 사용되는 예약어나 다른 객체명과 중복 불가
+--5. 공백 허용안함
+
+--사원 테이블
+--사원 번호 컬럼, 사원명 컬럼, 급여 컬럼
+--사원번호 : 4자리 숫자
+--사원명 : 20
+--급여 : 정수 5자리 소수점 2자리까지 표현 가능
+
+CREATE TABLE STAFF_LIST (
+  STAFF_NUM     NUMBER(4),
+  STAFF_NAME    VARCHAR(20),
+  STAFF_SALARY  NUMBER(7, 2)
+);
+
+INSERT INTO STAFF_LIST (
+     STAFF_NUM, 
+     STAFF_NAME,
+     STAFF_SALARY)
+VALUES
+(0215, '박강인', 250);
+
+INSERT INTO STAFF_LIST (
+     STAFF_NUM, 
+     STAFF_NAME,
+     STAFF_SALARY)
+VALUES
+(0218, '조혜선', 250);
+
+INSERT INTO STAFF_LIST (
+     STAFF_NUM, 
+     STAFF_NAME,
+     STAFF_SALARY)
+VALUES
+(1264, '박대승', 25000.00);
+
+ALTER TABLE STAFF_LIST
+DROP (STAFF_SALARY);
+
+ALTER TABLE STAFF_LIST
+ADD (STAFF_SALARY NUMBER(7, 2));
+
+
+SELECT  *
+FROM    STAFF_LIST;
+
+DROP TABLE STAFF_LIST;
+
+
+
+DESC SAM;
+
+DESC DEPT;
+
+CREATE TABLE DEPT (
+DEPTNO  NUMBER(2),
+DNAME   VARCHAR2(14),
+LOC     VARCHAR2(13)
+);
+
+INSERT INTO DEPT (
+    DEPTNO,
+    DNAME,
+    LOC
+)
+VALUES (
+    10,
+    'SALES',
+    'SEOUL'
+);
+
+INSERT INTO DEPT (
+    DEPTNO,
+    DNAME,
+    LOC
+)
+VALUES (
+    20,
+    'MARKETING',
+    'BUSAN'
+);
+
+SELECT  *
+FROM    DEPT
