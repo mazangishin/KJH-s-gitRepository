@@ -1,0 +1,179 @@
+SELECT  TO_CHAR(SYSDATE, 'YYYY-MM-DD DAY AM HH24:MI:SS')
+FROM    DUAL;
+
+SELECT  TO_CHAR(SYSDATE+ 3/24, 'YYYY-MM-DD DAY PM HH24:MI:SS')
+FROM    DUAL;
+
+SELECT  TO_CHAR(1230000) + 1
+FROM    DUAL;
+
+SELECT  1230000 + 1
+FROM    DUAL;
+
+SELECT  '1230000' + 1
+FROM    DUAL;
+
+SELECT  TO_CHAR (1230000, 'L9,999,999')
+FROM    DUAL;
+
+SELECT  *
+FROM    EMP;
+
+SELECT  EMPNO, ENAME, JOB, MGR, HIREDATE,
+        TO_CHAR((SAL * 1000 * 12)+ (SAL * 1000 * 12 * 1.1), 'L9,999,999,999')
+        AS "1~2년치 연봉의 합",
+        COMM, DEPTNO
+FROM    EMP;
+
+SELECT  ENAME, HIREDATE
+FROM    EMP
+WHERE   HIREDATE = 19801217;
+
+SELECT  ENAME, HIREDATE
+FROM    EMP
+WHERE   HIREDATE = 80/12/17;
+
+SELECT  ENAME, HIREDATE
+FROM    EMP
+WHERE   HIREDATE = '1980/12/17';
+
+SELECT  ENAME, HIREDATE
+FROM    EMP
+WHERE   HIREDATE = '80/12/17';
+
+SELECT  ENAME, HIREDATE
+FROM    EMP
+WHERE   HIREDATE = TO_DATE(19801217, 'YYYYMMDD');
+
+
+SELECT  SYSDATE - '20180123'
+FROM    DUAL;
+
+SELECT  FLOOR(SYSDATE - TO_DATE('2018/01/22', 'YYYY/MM/DD')) "현재년도 - 1년전 일자"
+FROM    DUAL;
+
+SELECT  FLOOR(SYSDATE - TO_DATE(20180122, 'YYYY/MM/DD')) "현재 년도 - 1년전 일자"
+FROM    DUAL;
+
+SELECT  TO_DATE('20190123', 'YYYY-MM-DD') "문자를 날짜로 표현"
+FROM    DUAL;
+
+
+SELECT  EMP.*, 
+        FLOOR(100 + (TO_DATE(SYSDATE, 'YYYY/MM/DD') - TO_DATE(HIREDATE, 'YYYY/MM/DD')) / 365)
+        AS 입사년수
+FROM    EMP;
+
+SELECT  *
+FROM    EMP
+WHERE   TO_DATE(SYSDATE + 30) - TO_DATE(HIREDATE)/365 <= 38;
+
+DESC EMP; 
+
+
+SELECT  TO_DATE(SYSDATE + 30) - TO_DATE(HIREDATE)
+FROM    EMP;
+
+--
+--집가고싶다 여행가고싶다 놀고싶다 술먹고싶다 자고싶다 날고싶다
+--나는 누구인가 여기는 어디인가 나는 무엇을 하고있는가
+--나는 아무 생각이 없다 왜냐하면 아무 생각을 하지 않기 때문이다
+--지금 뭐하는거지.. FEAT MINSUNG
+
+SELECT  '20,000' - '10,000'
+FROM    DUAL;
+
+SELECT  TO_NUMBER('20,000',  '99,999')
+        - TO_NUMBER('10,000', '99,999') AS "두 수를 뺀 값"
+FROM    DUAL;
+
+SELECT  TO_NUMBER(23)
+FROM    DUAL;
+
+SELECT  (TO_NUMBER('20,000', '99,999') + 2000)
+FROM    DUAL;
+
+
+SELECT  EMP.*, 
+        TRIM(TO_CHAR(SAL * 10000, 'L999,999,999')) AS 사원급여
+FROM    EMP;
+
+SELECT  STADIUM_NAME AS 스타디움이름, 
+        TRIM(TO_CHAR(SEAT_COUNT, '999,999,999'))||'좌석' AS 좌석수
+FROM    STADIUM;
+
+
+SELECT  RTRIM(TO_CHAR(ROUND(100, 2), 'FM999,999,990.99'), '.')
+        || '원' AS 한국, 
+        RTRIM(TO_CHAR(ROUND(100 / 1127.3, 2), 'FM999,999,990.99'), '.')
+        || '$' AS 미국, 
+        RTRIM(TO_CHAR(ROUND(100 / 1028.78, 2), 'FM999,999,990.99'), '.')
+        || '￥' AS 일본
+FROM    DUAL;
+
+SELECT  TEAM_ID, TO_NUMBER(ZIP_CODE1, '999') + TO_NUMBER(ZIP_CODE2, '999') AS 우편번호합
+FROM    TEAM;
+
+
+SELECT  ENAME, DEPTNO,
+        CASE WHEN DEPTNO = 10 THEN 'ACCOUNTING'
+             WHEN DEPTNO = 20 THEN 'RESEARCH'
+             WHEN DEPTNO = 30 THEN 'SALES'
+             WHEN DEPTNO = 40 THEN 'OPERATIONS'
+        END AS 부서명
+FROM    EMP;
+
+
+SELECT  ENAME, SAL,
+        CASE WHEN SAL >= 2000 THEN 1000
+             WHEN SAL < 2000 THEN 2000
+        END AS INSENTIVE
+FROM    EMP;
+
+SELECT  *
+FROM    DEPT;
+
+SELECT  LOC,
+        CASE WHEN LOC = 'NEW YORK' THEN 'EAST'
+             WHEN LOC = 'DALLAS'   THEN 'CENTER'
+             WHEN LOC = 'CHICAGO'  THEN 'CENTER'
+             WHEN LOC = 'BOSTON'   THEN 'EAST'
+             ELSE 'ETC'
+        END AS AREA
+FROM    DEPT;
+
+SELECT  *
+FROM    EMP;
+
+SELECT  ENAME, SAL, 
+        CASE WHEN SAL >= 2000 THEN 1000
+             ELSE (CASE 
+                   WHEN SAL >= 1000 THEN 500
+                   ELSE 0
+             END)
+        END AS BONUS           
+FROM    EMP;
+
+--SELECT  ENAME, SAL, 
+--        CASE WHEN SAL >= 2000 THEN 1000
+--             WHEN SAL >= 1000 THEN 500
+--        ELSE 0 
+--        END AS BONUS           
+--FROM    EMP;
+
+SELECT  ENAME, SAL,
+        CASE WHEN SAL >= 3000 THEN 'HIGH'
+             WHEN SAL >= 1000 THEN 'MID'
+        ELSE 'LOW'
+        END AS SALARY_GRADE
+FROM    EMP;
+
+SELECT  ENAME, SAL,
+        CASE WHEN SAL >= 3000 THEN 'HIGH'
+        ELSE (CASE
+              WHEN SAL >= 1000 THEN 'MID'
+              ELSE 'LOW'
+              END)
+        END AS SALARY_GRADE
+FROM    EMP;
+              
