@@ -181,15 +181,3 @@ nameArr[1] = "park";
 nameArr[2] = "choi";
 
 Array constants can only be used in initializers
-
-
-
-
-
-
-
-
-
-
-
-

@@ -52,10 +52,3 @@ commit 저지른다
 자원 세어나간다
 Resource leak: 'scan' is never closed
 
-
-
-
-
-
-
-

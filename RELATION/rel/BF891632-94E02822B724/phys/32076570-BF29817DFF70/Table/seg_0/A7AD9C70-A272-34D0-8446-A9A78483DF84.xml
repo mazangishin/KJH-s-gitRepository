@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PLAYER" directorySegmentName="seg_0" id="A7AD9C70-A272-34D0-8446-A9A78483DF84">
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:12:58 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<schemaObject>8C5A2B3A-67FA-20BF-9579-CD4E56AEE5D5</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A2B45C88-63B4-E1AA-FE88-A748B058291F</segment>
+<tableSpace>9DC1EB10-E408-59C0-31D0-6919EA8C1E73</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="HEIGHT" id="017AD5D2-AC84-2CE0-F08C-426898905805">
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:12:58 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="WEIGHT" id="0B7B72C9-E53B-F6C8-3E8F-266AA03DC18A">
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:12:58 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NICKNAME" id="1DCA390C-C219-9E20-F744-04AF769A359A">
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:12:58 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NATION" id="257A1EA6-5C5B-35C7-DBE0-B00D9E55C488">
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:12:58 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="POSITION" id="511D3B57-0021-7AB4-56B6-0550452CCAA9">
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:12:58 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BIRTH_DATE" id="6853E5AD-705C-FA31-DA19-54A8A7C78004">
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:12:58 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SOLAR" id="86C99499-353E-735F-BED7-CA9B3530910C">
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:12:58 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BACK_NO" id="999EE592-47E6-FDFD-BEB1-FE98639BC503">
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:12:58 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="E_PLAYER_NAME" id="AFC796B2-5D80-30EA-6B46-E5331BAFE90B">
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:12:58 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="JOIN_YYYY" id="BAA3CADD-23FB-7D26-F02B-16A2F2F3C229">
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:12:58 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PLAYER_NAME" id="BEA6EC02-5EE1-8243-5120-408A3674B126">
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:12:58 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TEAM_ID" id="D9166B1C-2C0B-6615-D93D-A46D98BED841">
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:12:58 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PLAYER_ID" id="F550C605-A6EE-0DF3-2233-72454D506B38">
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:12:58 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PLAYER_PK" id="89348E40-DB43-0E00-1801-23BAC657DDAC">
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:12:58 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<schemaObject>8C5A2B3A-67FA-20BF-9579-CD4E56AEE5D5</schemaObject>
+<segment>1BDAA2B7-3E2B-33DA-765D-22F430677DAC</segment>
+<tableSpace>9DC1EB10-E408-59C0-31D0-6919EA8C1E73</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PLAYER_FK" id="676EB70A-762C-CA24-D7F9-D786D718C4BE">
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:12:58 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PLAYER_PK" id="0837018D-3854-44E8-FF5D-8D4CCC1F3863">
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:12:58 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<segment>1BDAA2B7-3E2B-33DA-765D-22F430677DAC</segment>
+<tableSpace>9DC1EB10-E408-59C0-31D0-6919EA8C1E73</tableSpace>
+<existingIndex>89348E40-DB43-0E00-1801-23BAC657DDAC</existingIndex>
+<indexSegment>1BDAA2B7-3E2B-33DA-765D-22F430677DAC</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

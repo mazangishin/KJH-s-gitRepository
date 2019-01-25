@@ -1,0 +1,262 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE80748E-6E22-1DF6-A0CD-53363A195348" schemaObject="8C5A2B3A-67FA-20BF-9579-CD4E56AEE5D5" name="TEAM">
+<sourceConnName>scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>TEAM</sourceObjName>
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:13:28 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TEAM_ID" id="C0D8B127-39AA-99B3-F79F-FCF1E981378A">
+<sourceConnName>scott</sourceConnName>
+<sourceObjSchema>TEAM</sourceObjSchema>
+<sourceObjName>TEAM_ID</sourceObjName>
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:13:28 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGION_NAME" id="AFBC585E-CFC6-C9E5-9BE1-466C04E34FF4">
+<sourceConnName>scott</sourceConnName>
+<sourceObjSchema>TEAM</sourceObjSchema>
+<sourceObjName>REGION_NAME</sourceObjName>
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:13:28 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEAM_NAME" id="A4B6B05E-B8F0-E32F-CFA6-AE942E5B8F40">
+<sourceConnName>scott</sourceConnName>
+<sourceObjSchema>TEAM</sourceObjSchema>
+<sourceObjName>TEAM_NAME</sourceObjName>
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:13:28 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="E_TEAM_NAME" id="8A96660B-98E5-F0D3-351A-041F9106EDC1">
+<sourceConnName>scott</sourceConnName>
+<sourceObjSchema>TEAM</sourceObjSchema>
+<sourceObjName>E_TEAM_NAME</sourceObjName>
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:13:28 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORIG_YYYY" id="CE7B3C43-AA2D-D5CA-BBA9-2EAE7B3FDAFD">
+<sourceConnName>scott</sourceConnName>
+<sourceObjSchema>TEAM</sourceObjSchema>
+<sourceObjName>ORIG_YYYY</sourceObjName>
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:13:28 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>4 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STADIUM_ID" id="9533CB04-FA4B-0401-139B-AF14B7CD1900">
+<sourceConnName>scott</sourceConnName>
+<sourceObjSchema>TEAM</sourceObjSchema>
+<sourceObjName>STADIUM_ID</sourceObjName>
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:13:28 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="30528FE5-33B7-50CD-3E1D-86A12232D968" referredColumn="C3343A1C-5A55-0811-1F5D-1AECFBBDD62A"/>
+</associations>
+</Column>
+<Column name="ZIP_CODE1" id="81640751-1EEC-19C5-6EB1-EBCBAA694F6D">
+<sourceConnName>scott</sourceConnName>
+<sourceObjSchema>TEAM</sourceObjSchema>
+<sourceObjName>ZIP_CODE1</sourceObjName>
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:13:28 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZIP_CODE2" id="71650EFF-4D23-A234-35AD-F1554845A821">
+<sourceConnName>scott</sourceConnName>
+<sourceObjSchema>TEAM</sourceObjSchema>
+<sourceObjName>ZIP_CODE2</sourceObjName>
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:13:28 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDRESS" id="0F1510F1-009B-80DA-E506-C1241A2FCBFE">
+<sourceConnName>scott</sourceConnName>
+<sourceObjSchema>TEAM</sourceObjSchema>
+<sourceObjName>ADDRESS</sourceObjName>
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:13:28 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 BYTE</dataTypeSize>
+<ownDataTypeParameters>80 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DDD" id="A2B67AEE-60BF-FEB2-57CD-49278D1F9339">
+<sourceConnName>scott</sourceConnName>
+<sourceObjSchema>TEAM</sourceObjSchema>
+<sourceObjName>DDD</sourceObjName>
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:13:28 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEL" id="D99A7DD8-EFD0-2FA4-9CE4-7803597DD3C7">
+<sourceConnName>scott</sourceConnName>
+<sourceObjSchema>TEAM</sourceObjSchema>
+<sourceObjName>TEL</sourceObjName>
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:13:28 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FAX" id="21B3E0A5-212B-201D-322D-40458517191D">
+<sourceConnName>scott</sourceConnName>
+<sourceObjSchema>TEAM</sourceObjSchema>
+<sourceObjName>FAX</sourceObjName>
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:13:28 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HOMEPAGE" id="BEBDCD2D-A5CA-5EF5-B00A-2BF42AAFAEF0">
+<sourceConnName>scott</sourceConnName>
+<sourceObjSchema>TEAM</sourceObjSchema>
+<sourceObjName>HOMEPAGE</sourceObjName>
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:13:28 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OWNER" id="1B79FAEF-6677-BCFA-7535-FB7923C513A4">
+<sourceConnName>scott</sourceConnName>
+<sourceObjSchema>TEAM</sourceObjSchema>
+<sourceObjName>OWNER</sourceObjName>
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:13:28 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E4DBF28E-436A-C497-67C0-F7BBC707E6CD" name="TEAM_PK">
+<sourceConnName>scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>TEAM_PK</sourceObjName>
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:13:28 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0D8B127-39AA-99B3-F79F-FCF1E981378A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AED97EC4-2695-2D06-1C7B-D3F3FA737BD8" schemaObject="8C5A2B3A-67FA-20BF-9579-CD4E56AEE5D5" name="TEAM_PK">
+<sourceConnName>scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>TEAM_PK</sourceObjName>
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:13:28 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0D8B127-39AA-99B3-F79F-FCF1E981378A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F74151DD-76E7-24AC-0588-31769DCD54EA" name="TEAM_FK">
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:13:28 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9533CB04-FA4B-0401-139B-AF14B7CD1900"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

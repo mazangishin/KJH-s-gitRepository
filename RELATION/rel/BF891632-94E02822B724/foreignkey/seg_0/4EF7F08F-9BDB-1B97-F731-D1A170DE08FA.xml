@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4EF7F08F-9BDB-1B97-F731-D1A170DE08FA" containerWithKeyObject="15AF62A5-3DA4-EDE2-191B-09AA81AD9874" localFKIndex="AAD52E10-E6D5-64A5-EEA3-9B2CF9E258F8" name="SCHEDULE_FK">
+<sourceConnName>scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>SCHEDULE_FK</sourceObjName>
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:13:24 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<referredTableLongName>SCOTT.STADIUM</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1DA73764-0B45-0130-DA50-8D4E7683889F</referredTableID>
+<keyObject>1DD39295-AE89-44EC-69EB-9A5C33EEF1D7</keyObject>
+<referredKeyID>1DD39295-AE89-44EC-69EB-9A5C33EEF1D7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>STADIUM_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,251 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A7AD9C70-A272-34D0-8446-A9A78483DF84" schemaObject="8C5A2B3A-67FA-20BF-9579-CD4E56AEE5D5" name="PLAYER">
+<sourceConnName>scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>PLAYER</sourceObjName>
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:12:58 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PLAYER_ID" id="F550C605-A6EE-0DF3-2233-72454D506B38">
+<sourceConnName>scott</sourceConnName>
+<sourceObjSchema>PLAYER</sourceObjSchema>
+<sourceObjName>PLAYER_ID</sourceObjName>
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:12:58 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>7 BYTE</dataTypeSize>
+<ownDataTypeParameters>7 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PLAYER_NAME" id="BEA6EC02-5EE1-8243-5120-408A3674B126">
+<sourceConnName>scott</sourceConnName>
+<sourceObjSchema>PLAYER</sourceObjSchema>
+<sourceObjName>PLAYER_NAME</sourceObjName>
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:12:58 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEAM_ID" id="D9166B1C-2C0B-6615-D93D-A46D98BED841">
+<sourceConnName>scott</sourceConnName>
+<sourceObjSchema>PLAYER</sourceObjSchema>
+<sourceObjName>TEAM_ID</sourceObjName>
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:12:58 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="78CC2D28-7CF8-7469-2E4B-3DC4947C563E" referredColumn="C0D8B127-39AA-99B3-F79F-FCF1E981378A"/>
+</associations>
+</Column>
+<Column name="E_PLAYER_NAME" id="AFC796B2-5D80-30EA-6B46-E5331BAFE90B">
+<sourceConnName>scott</sourceConnName>
+<sourceObjSchema>PLAYER</sourceObjSchema>
+<sourceObjName>E_PLAYER_NAME</sourceObjName>
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:12:58 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NICKNAME" id="1DCA390C-C219-9E20-F744-04AF769A359A">
+<sourceConnName>scott</sourceConnName>
+<sourceObjSchema>PLAYER</sourceObjSchema>
+<sourceObjName>NICKNAME</sourceObjName>
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:12:58 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JOIN_YYYY" id="BAA3CADD-23FB-7D26-F02B-16A2F2F3C229">
+<sourceConnName>scott</sourceConnName>
+<sourceObjSchema>PLAYER</sourceObjSchema>
+<sourceObjName>JOIN_YYYY</sourceObjName>
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:12:58 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>4 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POSITION" id="511D3B57-0021-7AB4-56B6-0550452CCAA9">
+<sourceConnName>scott</sourceConnName>
+<sourceObjSchema>PLAYER</sourceObjSchema>
+<sourceObjName>POSITION</sourceObjName>
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:12:58 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BACK_NO" id="999EE592-47E6-FDFD-BEB1-FE98639BC503">
+<sourceConnName>scott</sourceConnName>
+<sourceObjSchema>PLAYER</sourceObjSchema>
+<sourceObjName>BACK_NO</sourceObjName>
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:12:58 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NATION" id="257A1EA6-5C5B-35C7-DBE0-B00D9E55C488">
+<sourceConnName>scott</sourceConnName>
+<sourceObjSchema>PLAYER</sourceObjSchema>
+<sourceObjName>NATION</sourceObjName>
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:12:58 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BIRTH_DATE" id="6853E5AD-705C-FA31-DA19-54A8A7C78004">
+<sourceConnName>scott</sourceConnName>
+<sourceObjSchema>PLAYER</sourceObjSchema>
+<sourceObjName>BIRTH_DATE</sourceObjName>
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:12:58 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOLAR" id="86C99499-353E-735F-BED7-CA9B3530910C">
+<sourceConnName>scott</sourceConnName>
+<sourceObjSchema>PLAYER</sourceObjSchema>
+<sourceObjName>SOLAR</sourceObjName>
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:12:58 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HEIGHT" id="017AD5D2-AC84-2CE0-F08C-426898905805">
+<sourceConnName>scott</sourceConnName>
+<sourceObjSchema>PLAYER</sourceObjSchema>
+<sourceObjName>HEIGHT</sourceObjName>
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:12:58 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WEIGHT" id="0B7B72C9-E53B-F6C8-3E8F-266AA03DC18A">
+<sourceConnName>scott</sourceConnName>
+<sourceObjSchema>PLAYER</sourceObjSchema>
+<sourceObjName>WEIGHT</sourceObjName>
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:12:58 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0837018D-3854-44E8-FF5D-8D4CCC1F3863" name="PLAYER_PK">
+<sourceConnName>scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>PLAYER_PK</sourceObjName>
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:12:58 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F550C605-A6EE-0DF3-2233-72454D506B38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="89348E40-DB43-0E00-1801-23BAC657DDAC" schemaObject="8C5A2B3A-67FA-20BF-9579-CD4E56AEE5D5" name="PLAYER_PK">
+<sourceConnName>scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>PLAYER_PK</sourceObjName>
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:12:58 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F550C605-A6EE-0DF3-2233-72454D506B38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="676EB70A-762C-CA24-D7F9-D786D718C4BE" name="PLAYER_FK">
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:12:58 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9166B1C-2C0B-6615-D93D-A46D98BED841"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

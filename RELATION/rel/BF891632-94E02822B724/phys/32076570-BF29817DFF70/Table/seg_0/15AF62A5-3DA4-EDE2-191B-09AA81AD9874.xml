@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="SCHEDULE" directorySegmentName="seg_0" id="15AF62A5-3DA4-EDE2-191B-09AA81AD9874">
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:13:24 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<schemaObject>8C5A2B3A-67FA-20BF-9579-CD4E56AEE5D5</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A2B45C88-63B4-E1AA-FE88-A748B058291F</segment>
+<tableSpace>9DC1EB10-E408-59C0-31D0-6919EA8C1E73</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SCHE_DATE" id="54F9CEC0-D8EB-683B-B897-42CC735D7B63">
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:13:24 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="HOMETEAM_ID" id="5D1696C1-D9CF-0067-D3CB-F9D6BB8074D1">
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:13:24 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GUBUN" id="8A7E3FFF-38C9-9DF4-F202-EBF1E2F99BC3">
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:13:24 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="HOME_SCORE" id="8F5B469D-2DD7-7700-9C56-93F3888AA01C">
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:13:24 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AWAYTEAM_ID" id="957B4A8E-4903-1948-F0D8-7C0692D5D50E">
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:13:24 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STADIUM_ID" id="AFCEEFA3-75D8-7EEF-BB87-F396D1D3D271">
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:13:24 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AWAY_SCORE" id="E56C4B65-8CA8-8847-40EB-3A215232746A">
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:13:24 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="SCHEDULE_PK" id="4B945397-262D-423A-9457-DE59E4607AEA">
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:13:24 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<schemaObject>8C5A2B3A-67FA-20BF-9579-CD4E56AEE5D5</schemaObject>
+<segment>1BDAA2B7-3E2B-33DA-765D-22F430677DAC</segment>
+<tableSpace>9DC1EB10-E408-59C0-31D0-6919EA8C1E73</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SCHEDULE_FK" id="AAD52E10-E6D5-64A5-EEA3-9B2CF9E258F8">
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:13:24 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SCHEDULE_PK" id="7A5C80AB-C5A1-7094-97AC-74D2159A0E75">
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:13:24 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<segment>1BDAA2B7-3E2B-33DA-765D-22F430677DAC</segment>
+<tableSpace>9DC1EB10-E408-59C0-31D0-6919EA8C1E73</tableSpace>
+<existingIndex>4B945397-262D-423A-9457-DE59E4607AEA</existingIndex>
+<indexSegment>1BDAA2B7-3E2B-33DA-765D-22F430677DAC</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,7 +1,7 @@
 package User;
 
 import java.util.Scanner;
-import LottoMachine.RandomMachine;
+import LottoMachine.*;
 
 public class UserExecutive{
 
@@ -16,6 +16,7 @@ public class UserExecutive{
 		int round = 0;
 		
 		
+		
 		System.out.println("사용자의 이름을 입력해주세요.");
 		playerName = scan.next();
 		System.out.println("현재의 소지금을 입력해주세요.");
@@ -23,10 +24,12 @@ public class UserExecutive{
 		System.out.println("복권을 몇 번 사실 건가요?");
 		round = scan.nextInt();
 		
-		machine.createLotto(round);
-		machine.drawLotto(round, money);
-		machine.dealing(money, round);
-		machine.userInfo(playerName, money, round);
+		
+		
+//		machine.createLotto(round);
+//		machine.drawLotto(round, money);
+//		machine.dealing(money, round);
+//		machine.userInfo(playerName, money, round);
 		
 		
 	}

@@ -6,10 +6,9 @@ public class RandomMachine {
 
 	UserExecutive userEx = new UserExecutive();
 	
-	int[][] lottoArr = new int[6][];
+	int[] lottoArr = new int[6];
 
-	public void createLotto (int round) {	// round 만큼 for문을 돌려서 lotto 배열을 생성한다.
-		
+	public RandomMachine () {
 		
 	}
 	
@@ -23,9 +22,9 @@ public class RandomMachine {
 
 			for (int i = 0; i < round; i++) {
 				
-				for (int n = 0; n < lottoArr.length[i][n]; n++) {
+				for (int n = 0; n < lottoArr.length; n++) {
 
-					lottoArr[i][n] = (int) (Math.random() * 45 + 1);
+					lottoArr[n] = (int)(Math.random() * 45 + 1);
 
 				}
 			}
@@ -41,23 +40,25 @@ public class RandomMachine {
 
 		System.out.println(playerName + "님은 현재 " + round + " 장의 복권을 가지고 계시며, 그 번호는 ");
 
-		for (int i = 0; i < lottoArr.length[][]; i++) {	// round 만큼 생성된 lotto 배열의 값을 출력한다.
-			for (int n = 0; n < lottoArr.length[]; n++) {
+		for (int i = 0; i < lottoArr.length; i++) {	// round 만큼 생성된 lotto 배열의 값을 출력한다.
+			
+			for (int n = 0; n < lottoArr.length; n++) {
 				
 			}
-			if (i < lottoArr.length[]) {	// lotto 배열의 마지막 값이 아닌 경우  ,를 붙인다.
+			if (i < lottoArr.length) {	// lotto 배열의 마지막 값이 아닌 경우  ,를 붙인다.
 
-				System.out.print(lottoArr[][i] + ", ");
+				System.out.print(lottoArr[i] + ", ");
 
 			} else if (i >= lottoArr.length) {	// lotto 배열의 마지막 값이 아닌 경우  ,를 붙이지 않는다.
 
-				System.out.print(lottoArr[][i]);
+				System.out.print(lottoArr[i]);
 
 			}
 		}
 
 		System.out.println("입니다.");
 		System.out.println("또한, " + playerName + "님의 소지금은 현재 " + money + " 원입니다.");
+		
 	}
 
 }

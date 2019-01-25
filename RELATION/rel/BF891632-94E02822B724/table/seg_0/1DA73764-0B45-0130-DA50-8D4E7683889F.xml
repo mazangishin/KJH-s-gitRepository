@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1DA73764-0B45-0130-DA50-8D4E7683889F" schemaObject="8C5A2B3A-67FA-20BF-9579-CD4E56AEE5D5" name="STADIUM">
+<sourceConnName>scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>STADIUM</sourceObjName>
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:13:32 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STADIUM_ID" id="C3343A1C-5A55-0811-1F5D-1AECFBBDD62A">
+<sourceConnName>scott</sourceConnName>
+<sourceObjSchema>STADIUM</sourceObjSchema>
+<sourceObjName>STADIUM_ID</sourceObjName>
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:13:32 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STADIUM_NAME" id="16F947F9-04FD-7D23-C18E-AEB8D8740381">
+<sourceConnName>scott</sourceConnName>
+<sourceObjSchema>STADIUM</sourceObjSchema>
+<sourceObjName>STADIUM_NAME</sourceObjName>
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:13:32 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HOMETEAM_ID" id="608FB0E7-099C-F84B-0FD4-6D26B9A2C2B2">
+<sourceConnName>scott</sourceConnName>
+<sourceObjSchema>STADIUM</sourceObjSchema>
+<sourceObjName>HOMETEAM_ID</sourceObjName>
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:13:32 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEAT_COUNT" id="A10CA7C0-E083-E753-77DF-B31FAF21A84C">
+<sourceConnName>scott</sourceConnName>
+<sourceObjSchema>STADIUM</sourceObjSchema>
+<sourceObjName>SEAT_COUNT</sourceObjName>
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:13:32 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDRESS" id="C542962B-C601-A2DB-8B30-1A0A8D267691">
+<sourceConnName>scott</sourceConnName>
+<sourceObjSchema>STADIUM</sourceObjSchema>
+<sourceObjName>ADDRESS</sourceObjName>
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:13:32 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 BYTE</dataTypeSize>
+<ownDataTypeParameters>60 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DDD" id="E0332FE7-53F1-0216-648A-5AC18C887B9B">
+<sourceConnName>scott</sourceConnName>
+<sourceObjSchema>STADIUM</sourceObjSchema>
+<sourceObjName>DDD</sourceObjName>
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:13:32 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEL" id="8E612175-05B4-91C1-EC20-CB5F92C07DF5">
+<sourceConnName>scott</sourceConnName>
+<sourceObjSchema>STADIUM</sourceObjSchema>
+<sourceObjName>TEL</sourceObjName>
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:13:32 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1DD39295-AE89-44EC-69EB-9A5C33EEF1D7" name="STADIUM_PK">
+<sourceConnName>scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>STADIUM_PK</sourceObjName>
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:13:32 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3343A1C-5A55-0811-1F5D-1AECFBBDD62A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B522C6DF-1D55-D47E-14A7-881319E741CD" schemaObject="8C5A2B3A-67FA-20BF-9579-CD4E56AEE5D5" name="STADIUM_PK">
+<sourceConnName>scott</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>STADIUM_PK</sourceObjName>
+<createdBy>TJ</createdBy>
+<createdTime>2019-01-18 09:13:32 UTC</createdTime>
+<ownerDesignName>RELATION</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3343A1C-5A55-0811-1F5D-1AECFBBDD62A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
