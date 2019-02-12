@@ -1,0 +1,9 @@
+#gugu {
+	border-color: 1px solid black;
+	height: 50px;
+	width: 100px;
+	padding: 10px;
+	background-color: gray;
+	font-size: 10px;
+	text-align: center;
+}

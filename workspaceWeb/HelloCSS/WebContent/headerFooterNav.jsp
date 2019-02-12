@@ -1,0 +1,46 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<header>
+	  <h1>
+	  	<img src="../WebContent/icox_logo.gif" alt="icox" />
+	  </h1>
+	  <ul>
+	    <li><a href="#">Home</a></li>
+	    <li><a href="#">About us</a></li>
+	    <li><a href="#">News</a></li>
+	    <li><a href="#">Contact</a></li>
+	  </ul>	
+	  <nav>
+	    <h2>메인메뉴</h2>
+	    <ul>
+	      <li><a href="#">아이콕스</a></li>
+	      <li><a href="#">신간도서</a></li>
+	      <li><a href="#">iCox커뮤니티</a></li>
+	      <li><a href="#">iCox자료실</a></li>
+	    </ul>
+	  </nav>
+	  <form name="sform" action="#" method="get" id="sform">
+	  <fieldset>
+	    <legend>도서검색</legend>	
+	    <label for="sbox">도서 검색어 입력</label>
+	    <input type="search" id="sbox" />
+	    <input type="submit" value="검색" />
+	  </fieldset>
+	  </form>	
+	</header>
+	<div id="content">
+	  <h2>메인 컨텐츠</h2>
+	  <p>메인 컨텐츠 내용</p>
+	</div>
+	<footer>
+	  <small>COPYRIGHT &copy iCox. All Rights Reserved</small>
+	</footer>
+</body>
+</html>
