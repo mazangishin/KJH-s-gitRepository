@@ -1,0 +1,45 @@
+34일차
+
+능력단위: 데이터 입출력 구현
+
+div id='h1Container'
+
+이태그 안에
+H1태그 "새로 만들어진 태그1" 를 
+추가하시오
+
+태그 삭제
+선택 요소.removeChild(선택 요소2);
+선택 요소의 자식인 선택 요소2를 삭제
+
+Uncaught TypeError: Failed to execute 'removeChild' on 'Node': parameter 1 is not of type 'Node'.
+    at h1TagRemoveFnc (DomControl5.jsp:30)
+
+
+유즈케이스
+유스케이스
+
+소프트웨어 개발 방법론(설계) 진행순서, 준비 
+폭포수 개발, 
+프로토타이핑
+에자일 방법론
+TDD 
+
+
+분석
+구성
+표현
+
+
+프로토타입
+
+시나리오 제작할 때 고려사항
+
+
+FormDocumentWrite.jsp
+
+
+
+
+
+

@@ -1,0 +1,57 @@
+37일차
+
+능력단위: 데이터 입출력 구현
+
+
+public
+
+접근 제어자
+private
+default
+protected
+public
+
+멤버 또는 클래스에 사용되어,
+해당하는 멤버 또는 클래스를 외부에서 접근하지
+못하도록 제한하는 역할을 한다.
+접근 제어자가 없으면 기본적으로 default이다
+클래스나 멤버변수, 메서드, 생성자에 접근 제어자가
+지정되어 있지 않다면 default임을 뜻한다.
+단, default를 적으면 오류다
+
+348
+
+The method numPrint() from the type DefaultTest is not visible
+
+publics
+      test
+
+root.parent.child
+     .test
+
+The constructor Child1() is not visible
+
+
+ctrl + shift + o: 자동 import
+
+Constructor call must be the first statement in a constructor
+
+this() - 같은 클래스 내의 다른 생성자 호출
+super()   - 조상(부모) 클래스의 생성자 호출
+
+332p 참고
+메인메서드는
+points 패키지에 만든다
+
+나머지 클래스는
+points.figure 패키지에 모두 만드시오
+
+Point, Point3D에 기본생성자를 
+명시적으로 작성해주세요
+오류를 해결하시오
+
+
+Implicit super constructor Product() is undefined. Must explicitly invoke another constructor
+
+exam.test
+

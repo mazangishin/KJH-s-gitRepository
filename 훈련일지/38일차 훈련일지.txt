@@ -1,0 +1,147 @@
+38일차
+
+능력단위: 데이터 입출력 구현
+
+
+페이지 전환
+a
+from button, submit
+
+ExamOne.jsp:65 Uncaught DOMException: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+
+
+문자열
+String = null
+"";
+
+
+Uncaught ReferenceError: id is not defined
+
+
+
+지원, 기성, 준혁
+혜미, 민성, 대승, 혜선
+승환, 명선, 훈일
+강인, 문권, 충현
+
+
+privates.test
+
+protectedTest.java
+
+private
+
+
+public > protected > (default) > private
+
+자바 3대 특징 상속, 캡슐화, 다형성
+
+접근 제어자를 이용한 캡슐화
+클래스나 멤버, 주로 멤버에 접근 제어자를 사용하는 
+이유는 클래스의 내부에 선언된 데이터를 보호하기 
+위해서이다.
+데이터가 유효한 값을 유지하도록, 또는 비밀번호와
+같은 데이터를 외부에서 함부로 변경하지 못하도록
+하기 위해서는 외부로부터의 접근을 제한하는 것이 필요하다.
+
+이것을 데이터 감추기(data hiding)라고 하며, 
+객체지향개념의 캡슐화(encapsulation)에 해당하는 내용이다.
+또 다른 이유는 클래스 내에서만 사용되는, 
+내부 작업을 위해 임시로 사용되는 멤버변수나 
+부분작업을 처리하기 위한 메서드 등의 멤버들을 
+클래스 내부에 감추기 위해서이다.
+외부에서 접근할 필요가 없는 멤버들을 private으로 지정하여
+외부에 노출시키지 않음으로써 복잡성을 줄일 수 있다
+
+요약
+접근 제어자를 사용하는 이유
+- 외부로부터 데이터를 보호하기 위해서
+- 외부에는 불필요한, 내부적으로만 사용되는,
+부분을 감추기 위해서
+
+
+
+
+ShoppingMall
+
+shop
+
+products.tv
+
+
+DigitalShop 가전제품가게
+String shopName 가게이름
+Tv
+보여준다 제품을
+void showProducts(){
+
+}
+
+제품을 판매한다
+void sellProduct(Customer customer){
+
+}
+
+Customer 고객
+String name 이름
+int money 소지금
+Tv
+
+나의 정보를 보여준다
+void myInfoView(){
+
+}
+
+
+Tv
+String name tv명
+int price 가격
+
+나의 정보를 보여준다
+void myInfoView(){
+
+}
+
+
+디지털샾은 하나만 존재한다
+사람은 하나만 존재한다
+Tv도 하나만 존재한다
+
+가게에서 Tv 정보를 알려준다
+사람은 그 정보를 봤다
+구매하러 간다
+
+구매했다
+
+끝
+
+
+주사위      한번 던지면 1에서 6사이가 나온다
+
+플레이어   주사위를 가질 수 있다
+               플레이어 정보를 출력하는 메서드
+
+보드판(룰) 주사위 숫자의 총합 
+주사위 합계가 15이상이면
+경기는 끝난다
+
+
+메인 내용
+주사위는 스스로 던질수 없다 오직 플레이어만이 던질 수 있다
+보드판은 주사위나 플레이어를 가질 수 없다
+
+
+
+ObjectParam
+
+
+사과
+color
+이름
+
+사람
+이름
+나이
+
+
+
