@@ -18,7 +18,7 @@ public class LottoMachine {
 			System.out.println("번호 생성을 종료합니다.");
 			return null;
 
-		} else if (playerMoney > 0) {
+		} else if (playerMoney >= (playTime * 1000)) {
 
 			for (int n = 0; n <= 5; n++) {
 
