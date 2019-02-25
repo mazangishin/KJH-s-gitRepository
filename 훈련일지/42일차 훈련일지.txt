@@ -1,0 +1,93 @@
+42일차
+
+능력단위: 데이터 입출력 구현
+
+
+the value 0 if the argument string is equal tothis string; a value less than 0 if this stringis lexicographically less than the string argument; and avalue greater than 0 if this string islexicographically greater than the string argument.
+
+
+사용자의 입력을 받는다
+사용자로 부터 글자를 입력받은 후 
+오로지 자신의 이름을 입력한 경우에만 무한루프를 벗어나시오
+
+출력결과
+아무글자나 입력해주세요(힌트: 개발자 이름)
+enter:) ㄴㅇ머라
+틀렸습니다. 다시 입력해주세요
+
+아무글자나 입력해주세요(힌트: 개발자 이름)
+enter:)루틴
+틀렸습니다. 다시 입력해주세요
+
+아무글자나 입력해주세요(힌트: 개발자 이름)
+enter:)박성욱
+
+게임을 종료합니다 
+
+
+"" String
+'' char
+
+contains();
+
+indexOf
+charAt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
