@@ -1,0 +1,103 @@
+47일차
+
+능력단위: 애플리케이션 구현
+
+
+
+컬렉션 프레임웍(Collection Framework)
+
+CollectionStudy
+
+
+
+ListStudy
+
+ctrl + shift + o: 임폴트한다
+
+
+List
+리스트는 1차원적인 구조로 데이터를 
+늘어놓은 형태의 자료구조이다.
+배열과 흡사 하지만 다른 점은 자료를 검색과 추가, 삭제가
+아주 용이하다는 것이다
+반면에 리스트처럼 1차원적인 구조로 되어있지만 데이터의
+추가와 삭제를 제한하여 일정한 규칙으로 추가/삭제를
+해야하는 구조도 있다. 바로 스택과 큐이다.
+
+
+
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 4, Size: 3
+
+== 우리팀 정보 ==
+팀 번호: 1
+팀원의 이름: 홍길동
+팀원의 나이: 22
+
+팀 번호: 2
+팀원의 이름: 님걱정
+팀원의 나이: 28
+
+
+
+The method add(Object) in the type ArrayList is not applicable for the arguments (void)
+
+
+
+1: ==== list값 출력 ====
+1	2	3	4	5	6	
+2: ==== list값 출력 ====
+A	B	C
+
+자신의 팀원의 정보는 TeamPerson.java
+자신의 팀원을 list에 저장한다
+
+새로운 list에 팀원의 정보를 복제한다
+복제한 팀원의 정보는 나이만 1살씩만 어리게 
+작성해서 출력하시오
+
+
+
+Returns a shallow copy of this ArrayList instance. (Theelements themselves are not copied.)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
