@@ -1,0 +1,7 @@
+프로젝트 복사 붙여넣기 했을 때
+
+web.xml
+.classpath
+.settings -> org.eclipse.wst.common.component 
+
+에서 확인해보자

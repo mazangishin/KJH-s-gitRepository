@@ -1,0 +1,39 @@
+웹 프로젝트 폴더 구조
+src - 자바 소스 파일을 두는 폴더
+서블릿 클래스나 필터, 리스너 등 필요한 모든 자바 클래스 파일을 둔다.
+
+build / classes
+컴파일된 자바 클래스 파일(/clss)이 놓이는 폴더
+패키지에 소속된 클래스인 경우 이 폴더에 해당 패키지가 자동으로 만들어진다.
+
+*WebContent
+HTML, CSS, Javasacript, jsp, 이미지 파일 등 웹 콘텐츠를 두는 폴더이다.
+웹 애플리케이션을 서버에 배치할 때 이 폴더의 내용물이 그대로 복사된다.
+
+*WebContent / WEB-INF
+웹 애플리케이션의 설정과 관련된 파일을 두는 폴더
+이 폴더에 있는 파일은 클라이언트에서 요청할 수 없다.
+따라서 HTMl이나 Javascripy, CSS 등 클라이언트에서 요청할 수 있는 파일을
+이 폴더에 두어서는 안 된다.
+
+*WebContent / WEB-INF / web.xml
+웹 애플리케이션 배치 설명서 파일 Deployment Descriptor 파일 (DD파일이라 부름)
+서블릿, 필터, 리스터, 매개변수, 기본 웹 페이지 등
+웹 애플리케이션 컴포넌트들의 배치 정보를 이 파일에 작성한다. 서블릿 컨테이너는
+클라이언트의 요청을 처리할 때 이 파일의 정보를 참고하여 서블릿 클래스를 찾거나
+필터를 실행하는 등의 작업을 수행한다.
+
+*WebContent / WEB-INF / lib
+자바 아카이브(Archive)파일(.jar)을 두는 폴더 (Archive : 기록 보관소)
+아카이브 파일은 클래스 파일과 프로퍼티 파일(properties)들을 모아 놓은 보관소 파일이다.
+
+서블릿의 생성과 소멸
+생명주기
+init, service, destroy
+
+http://localhost:8090/HelloJsp/KJH
+
+namespace
+패키지명 + 클래스명 = Full qualified name = QName
+
+org.insighttech.er,1.0.0.v20150619-0219,plugins/org.insighttech.er,1.0.0.v20150619-0219.jar,4,false
