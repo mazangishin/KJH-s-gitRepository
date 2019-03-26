@@ -1,0 +1,262 @@
+62일차
+
+능력단위: 애플리케이션 구현
+
+
+시스템 패키징
+
+springHello
+
+빌드툴 -> 자동으로 library
+maven
+
+디펜던시
+defendency
+
+
+spring이란?
+
+
+hello-web
+
+src/main/java
+src/main/resources
+src/test/java
+src/test/resources
+
+src/main/webapp
+
+com.tg.hello
+
+
+maven(메이븐)
+메일, 메시지, 파일전송, 문자처리 fmt, 
+
+
+https://mvnrepository.com/
+
+
+
+spring context
+
+
+dependency injection: 의존 주입
+객체 주입
+
+가장 좋은 사례 
+spring-context.xml
+
+
+Spring 스프링?
+* EJB를 주 프레임워크로 사용할 때 불편했던 점들을 해소
+* Apache2.0 License로 공개됨
+* 로드 존슨이 출간한 도서의 코드가 Spring의 근간이 됨
+
+스프링 프레임워크(Spring framework)란?
+* java 엔터라이즈 개발을 편하게 해주는 오픈소스
+경량급 애플리케이션 프레임워크
+
+* 애플리케이션 프레임워크
+특정 계층이나 기술, 업무 분야에 국한되지 않고 애플리케이션의
+전영역을 포괄하는 범용적인 프레임워크를 말함
+
+* 경량급 프레임워크
+단순한 웹 컨테이너에서도 엔터프라이즈 개발의
+고급기술을 대부분 사용할 수 있음
+
+장점
+*엔터프라이즈 개발 용이: 개발자가 복잡하고 실수하기 쉬운 Low Level에 많이 신경 쓰지 않으면서 Business Logic 개발에 전념할 수 있도록 해줌
+
+*오픈소스: Spring은 OpenSource의 장점을 충분히 취하면서
+동시에 OpenSource 제품의 단점과 한계를 잘 극복함
+
+-Spring Framework의 특징-
+
+*컨테이너 역할
+Spring 컨테이너는 Java 객체의 Life Cycle을 관리하며, 
+Spring 컨테이너로부터 필요한 객체를 가져와 사용할 수 있다
+
+*DI(Dependency Injection) 지원
+Spring은 설정 파일이나 어노테이션을 통해서 객체 간의 
+의존관계를 설정할 수 있도록 하고 있다.
+
+*AOP(Aspect Oriented Programming) 지원
+Spring은 트랜잭션이나 로깅, 보안과 같이 공통적으로 
+필요로 하는 모듈들을 실제 핵심 모듈에서 분리해서 적용할 수 있다.
+
+*POJO(Plain Old Java Object) 지원
+Spring 컨테이너에 저장되는 Java 객체는 특정한 인터페이스를
+구현하거나, 특정 클래스를 상속받지 않아도 된다.
+
+*트랜잭션 처리를 위한 일관된 방법을 지원
+JDBC, JPA 등 어떤 트랜잭션을 사용하던 설정을 통해
+정보를 관리하므로 트랜잭션 구현에 상관없이 동일한
+코드 사용 가능
+
+*영속성(Persistence)과 관련된 다양한 API 지원
+Spring은 Mybatis, Hibernate 등 데이터베이스 처리를 위한
+ORM(Object Relational Mapping) 프레임워크들과의 연동 지원
+
+
+* IoC(Inversion of Control)의 개념
+제어의 역전이란, 객체의 생성, 생명주기의 관리까지 
+모든 객체에 대한 제어권이 바뀌었다는 것을 의미
+
+* IoC컨테이너
+스프링 프레임워크도 객체에 대한 생성 및 생명주기를 관리할 수 있는 기능을 제공하고 있음. 즉 IoC 컨테이너 기능을 제공한다.
+
+특징
+IoC 컨테이너는 객체의 생성을 책임지고, 의존성을 관리한다.
+POJO의 생성, 초기화, 서비스, 소멸에 대한 권한을 가진다
+개발자들이 직접 POJO를 생성할 수 있지만 컨테이너에게 맡긴다
+
+
+DiStudy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

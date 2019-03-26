@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<bean id="helloDao" class="com.tg.hello.HelloDao"/>
+		<!-- new ScoreDto(10, 20);
+		s = new ScoreDto();
+		s.setKor(10);
+		s.setEng(100); -->
+
+	<bean id="scoreDto" class="com.tg.edu.ScoreDto">
+	<!-- 	<property name="kor" value="10"/>
+		<property name="eng" value="100"/> -->
+		<constructor-arg>
+			<value type="java.lang.Integer">10</value>
+		</constructor-arg>
+		<constructor-arg type="int" value="20"/>
+	</bean>
+	
+	<bean id="student" class="com.tg.edu.Student"/>
+	<bean id="eduDao" class="com.tg.edu.EduDao"/>
+			
+</beans>

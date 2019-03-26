@@ -1,0 +1,146 @@
+61일차
+
+능력단위: 애플리케이션 구현
+
+http://192.168.0.57:8090/web05_338/index.jsp
+
+UI / UX
+
+컬럼 : 진하게, 배경색, 가운데 
+내용: 
+숫자 오른쪽
+글자 왼쪽
+날짜 가운데
+
+
+스프링 프레임워크
+Spring Framework
+
+
+jee
+
+EE
+
+sts
+
+spring suite
+
+
+전자정부프레임워크
+spring framework -> 커스텀마이징
+egovFramework
+
+
+java
+
+class -> 파일    0
+
+class + class + class -> 패키지  4
+
+1? 패키지 + 2? 패키지 + 패키지 -> 모듈  4
+
+모듈 + 모듈 + 모듈 -> 컨테이너  1
+
+컨테이너 + 컨테이너 + 컨테이너 -> 프레임워크  
+
+오픈소스 open source 
+
+공개 -> class -> java
+무상 무료
+
+시스템 패키징
+
+
+springHello
+
+빌드툴 -> 자동으로 library
+maven
+
+디펜던시
+defendency
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
