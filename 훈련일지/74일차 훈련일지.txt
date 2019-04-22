@@ -1,0 +1,38 @@
+74일차
+
+능력단위: 애플리케이션 구현
+
+
+C - s - insert
+R - s - select 단수, 복수
+U - s - update
+D - f - delete
+
+전송
+html 에서 값을 전달
+
+글목록 -> GET
+글읽기 -> GET
+글등록 -> POST
+글삭제 -> GET
+글수정 -> POST
+
+http://ermaster.sourceforge.net/
+http://ternjs.net/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
